@@ -1,0 +1,94 @@
+/* Responsive Design */
+
+@media (max-width: 900px) {
+
+    .sidebar {
+        width: 80px;
+    }
+
+    .sidebar p,
+    .sidebar h3,
+    .sidebar hr {
+        display: none;
+    }
+
+    .sidebar .side-link {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .sidebar .side-link img {
+        width: 22px;
+    }
+
+    .container,
+    .large-container {
+        margin-left: 80px;
+        padding: 20px;
+    }
+
+    .nav_middle {
+        flex: 1;
+        margin: 0 20px;
+    }
+
+    .nav_right img {
+        width: 20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav_left .logo {
+        width: 90px;
+    }
+
+    .nav_middle {
+        margin: 0 10px;
+    }
+
+    .search-bar {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .nav_right {
+        gap: 8px;
+    }
+
+    .nav_right img {
+        display: none;
+    }
+
+    .nav_right .user-icon {
+        display: block;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .small-sidebar {
+        display: none;
+    }
+
+    .container,
+    .large-container {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .feed {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
